@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: url('../img/background-v1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+    min-height: 100vh;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.container {
+  max-width: 500px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #3498db;
+  font-size: 32px;
+}
+
+.h2-laporan {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #333;
+}
+
+form input[type=text],
+form input[type=password],
+form input[type=file],
+form textarea,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fdfdfd;
+  transition: border 0.3s;
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3498db;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.text-center {
+  text-align: center;
+  margin-top: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 15px;
+}
+table, th, td {
+  border: 1px solid #ccc;
+}
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+th {
+  background-color: #3498db;
+  color: white;
+}
+
+.laporan {
+  background: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+}
+
+.laporan img {
+  max-width: 220px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+.laporan-status {
+    display: inline-block;
+    margin-bottom: 12px;
+    font-weight: bold;
+    border-radius: 16px;
+    padding: 6px 18px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0 2px 8px rgba(52,152,219,0.08);
+    background: #eaf6fb;
+    color: #3498db;
+}
+
+.laporan {
+    position: relative;
+}
+
+.laporan-info-box {
+    background: #f4faff;
+    border-left: 4px solid #3498db;
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin-bottom: 14px;
+    color: #24618f;
+    box-shadow: 0 1px 4px rgba(52,152,219,0.06);
+}
+.laporan-info-box strong {
+    color: #217dbb;
+}
+
+.aksi-user a {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 15px;
+  color: #e67e22;
+  font-weight: 600;
+}
+.aksi-user a:hover {
+  color: #d35400;
+}
+
+.admin .content-box {
+  background-color: rgba(255, 255, 255, 0.92);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.admin h2 {
+  color: #3498db;
+}
+
+.status-menunggu {
+  background-color: #fff3cd;
+  color: #856404;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.status-diproses {
+  background-color: #ffe3ba;
+  color: #9f6000;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.status-selesai {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.status-ditolak {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.filter-bar label {
+  color: white;
+  font-weight: bold;
+}
