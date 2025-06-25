@@ -1,3 +1,9 @@
+**Anggota Kelompok**
+===================
+1. 5230311085-Rangga Mukti Riko Wahyu Rozaan
+2. 5230311089-Haidar Al Fatih 
+3. 5230311091-Rifki Alfaris
+
 **Semua Akun:**
 ===================
 **ADMIN:**
@@ -25,3 +31,4 @@ okegas
 Rifki Alfaris
 081329372116
 haidar12345
+
